@@ -1,0 +1,30 @@
+body {
+    background-color: #f1f1f1;
+    letter-spacing: 0.2em;
+    font-size: 0.9em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    max-width: 400px;
+}
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+img {
+    width: 80%;
+    opacity: .9;
+}
+.icon {
+    border-radius: 50%;
+    width: 80px;
+    transform: translate(0%, -50%);
+    margin-bottom: -10px;
+    opacity: .95;
+}
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 2px 25px -10px hsl(0, 0%, 45%) !important;
+}
+

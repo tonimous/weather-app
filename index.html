@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    
+    <div class="container my-5 mx-auto">
+        <h1 class="text-muted text-center my-4">The Weather Today</h1>
+
+        <form action="" class="change-location text-muted my-4 text-center">
+            <label for="city" class="city">Please enter the location</label>
+            <input type="text" name="city" class="form-control p-4" placeholder="type the city...">
+            <div class="feedback text-center text-danger p-2"></div>
+        </form>
+
+        <div class="card shadow-lg d-none">
+            <img src="" class="time card-img-top" alt="">
+            <div class="icon mx-auto text-center bg-light">
+                <img src="" alt="">
+            </div>
+            <div class="text-center text-muted text-uppercase details">
+                <h5 class="my-3">City name</h5>
+                <div class="my-3">Weather condition</div>
+                <div class="display-4 my-4">
+                    <span>temp</span>
+                    <span>&deg;C</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
